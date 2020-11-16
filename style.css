@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  width: auto;
+}
+
+
+
+
+
+header {
+  background-color: #ffcad4;
+  text-align: right;
+  position: sticky;
+  top: 0;
+
+
+
+
+
+}
+
+li {
+  display: inline-block;
+  text-align: right;
+  padding: 30px;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.title {
+  display: grid;
+  background-image: url("IMG_1579.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:left;
+
+  border: 10px solid yellow;
+  text-align: right;
+  font-family: cursive;
+  font-size: 83px;
+  padding: 10%;
+
+  color: white;
+
+
+  color: pink;
+  background-color: white;
+
+  margin: 0;
+
+}
+
+
+
+
+.box2 {
+  border: 3em solid green;
+  padding: 10px;
+  margin-right: 50%;
+}
+
+.box3 {
+  border: 3em solid purple;
+  padding: 10px;
+  margin-left: 50%;
+}
+
+footer {
+  background-color: #ffcad4;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  grid-gap: 2px;
+}
+
+.social-icon {
+  padding: 20px;
+}
+
+.test {
+  border: 20px solid blue;
+
+  padding: 20px;
+  margin: 20px 0 20px 0;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    font-size: .5em;}
+
+}
+
+
+.services {
+  text-align: center;
+  font-family: Playfair Display;
+  background-color: pink;
+  border: 5px solid red;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+.contact {
+  text-align: center;
+  padding: 5px;
+}
+
+
+/* GALLERY */
+
+
+.gallery {
+  transition: all 2ms;
+}
+
+.gallery:hover {
+  transform: rotate3d(20deg);
+  cursor: pointer;
+  border: 2px solid grey;
+
+
+}
+
+.gallerytitle {
+  text-align: center;
+  font-family: Playfair Display;
+  background-color: pink;
+  border: 5px solid blue;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
